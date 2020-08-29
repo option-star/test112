@@ -78,3 +78,13 @@
 - `git merge dev`
     + 合并分支内容，把当前分支与指定的分支(dev),进行合并
     + 当前分支指的是`git branch`命令输出的前面有*号的分支
+- 合并时如果有冲突，需要手动去处理，处理后还需要再提交一次
+
+### GitHub
+- 不是git，只是一个网站
+- 只不过这个网站提供了允许别人通过git上传代码的功能
+
+### 提交代码到github(当作git服务器来用)
+- `git push [地址] master`
+    + 会把当前分支的内容上传到远程的master分支上
+    + 实例：`git push https://github.com/option-star/test112.git master`
